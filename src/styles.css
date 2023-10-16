@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.search-form {
+    text-align: center;
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 300px;
+}
+
+button[type="submit"],
+.load-more {
+    background-color: #0074e0;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo-card {
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.photo-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.info {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-item {
+    margin: 0;
+}
+
+.load-more {
+    display: none;
+    margin: 20px 0;
+}
